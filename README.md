@@ -50,14 +50,30 @@ image-enhancement-research/
 
 ## 🚀 How to Run
 
-1. Clone the repository
-2. Install dependencies
+1. Download or clone this repository
 
-```
-pip install -r requirements.txt
+2. Upload the entire folder to your **Google Drive** (keep the same structure)
+
+3. Open the notebooks using **Google Colab**
+
+4. Mount your Google Drive:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
 ```
 
-3. Run notebooks step by step
+5. Update file paths if required (e.g., `/content/drive/MyDrive/...`)
+
+6. Run the notebooks step by step
+
+---
+
+### ⚠️ Note
+
+This project was developed using Google Colab with Google Drive for file handling.
+To run without modifying the code, it is recommended to follow the Drive-based setup.
+
 
 ---
 
